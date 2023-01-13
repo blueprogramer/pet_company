@@ -32,3 +32,42 @@ header {
     text-decoration: none;
     color: var(--secondary-text-color);
 }
+
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark-background);
+    color: var(--main-text-color);
+    padding: 100px 10vw;
+}
+
+.hero-main-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-main-content p {
+    font-size: 18px;
+}
+
+.hero-main-content button {
+    width: 120px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--button-color);
+    color: var(--main-text-color);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hero-main-content button:hover {
+    cursor: pointer;
+}
+
+.hero-main-image {
+    height: auto;
+    width: 600px;
+}
