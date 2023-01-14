@@ -39,7 +39,7 @@ header {
     align-items: center;
     background-color: var(--dark-background);
     color: var(--main-text-color);
-    padding: 100px 10vw;
+    padding: 100px 15vw;
 }
 
 .hero-main-content h1 {
@@ -80,6 +80,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 700px;
 }
 
 .first-section h2 {
@@ -112,7 +113,7 @@ header {
 .second-section {
     background-color: var(--light-background);
     color: var(--quote-text-color);
-    padding: 10vh 20vw;
+    padding: 20vh 20vw;
 }
 
 .quote-text {
@@ -130,7 +131,7 @@ header {
 
 .third-section {
     background-color: var(--white-background);
-    padding: 100px 20vw;
+    padding: 15vh 20vw;
 }
 
 .third-section-wrapper {
