@@ -175,3 +175,18 @@ header {
     cursor: pointer;
     background-color: var(--button-hover);
 }
+
+footer {
+    background-color: var(--dark-background);
+    height: 100px;
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--secondary-text-color);
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
