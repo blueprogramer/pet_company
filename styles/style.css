@@ -71,3 +71,38 @@ header {
     height: auto;
     width: 600px;
 }
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3vw;
+    color: var(--quote-text-color);
+    margin: 3vh auto;
+}
+
+.card {
+    max-width: 216px;
+    padding: 8px;
+}
+
+.card-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
