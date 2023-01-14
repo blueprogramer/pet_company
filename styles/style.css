@@ -106,3 +106,22 @@ header {
     object-fit: cover;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
+
+.second-section {
+    background-color: var(--light-background);
+    color: var(--quote-text-color);
+    padding: 10vh 20vw;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.quote-owner {
+    text-align: end;
+    padding-right: 3vw;
+    margin: 0;
+    font-size: 26px;
+    font-weight: bold;
+}
